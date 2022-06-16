@@ -40,7 +40,7 @@ public class GameUI {
     String input = sc.next();
     switch(input) {
       case "":
-        Main.Battle();
+        Battle();
       default:
         Battle();
     }
